@@ -18,7 +18,7 @@ The application’s landing page is built with **[PicoCSS](https://picocss.com/)
 
 ## Preview
 
-To see the preview of application [click here]().
+To see the preview of application [click here](https://w2th4q-5173.csb.app/).
 
 ---
 
