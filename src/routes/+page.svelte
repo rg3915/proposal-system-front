@@ -46,7 +46,7 @@
       <p>Sistema de Orçamentos de LED</p>
     </hgroup>
     <p><a
-        href=""
+        href="/dashboard"
         role="button"
       >Experimente</a></p>
   </header>
@@ -112,7 +112,7 @@
         <li>Histórico de cotações salvas</li>
       </ul>
 
-      Transforme seu processo de vendas e estoque com nosso sistema de orçamento de LED.
+      <p>Transforme seu processo de vendas e estoque com nosso sistema de orçamento de LED.</p>
     </section>
 
     <aside>
