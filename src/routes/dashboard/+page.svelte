@@ -59,16 +59,16 @@
       <Tooltip.Root>
         <Tooltip.Trigger asChild let:builder>
           <a
-            href="##"
+            href="/orcamentos"
             class="bg-accent text-accent-foreground hover:text-foreground flex h-9 w-9 items-center justify-center rounded-lg transition-colors md:h-8 md:w-8"
             use:builder.action
             {...builder}
           >
             <ShoppingCart class="h-5 w-5" />
-            <span class="sr-only">Orders</span>
+            <span class="sr-only">Orçamentos</span>
           </a>
         </Tooltip.Trigger>
-        <Tooltip.Content side="right">Orders</Tooltip.Content>
+        <Tooltip.Content side="right">Orçamentos</Tooltip.Content>
       </Tooltip.Root>
       <Tooltip.Root>
         <Tooltip.Trigger asChild let:builder>
@@ -157,9 +157,9 @@
               <House class="h-5 w-5" />
               Dashboard
             </a>
-            <a href="##" class="text-foreground flex items-center gap-4 px-2.5">
+            <a href="/orcamentos" class="text-foreground flex items-center gap-4 px-2.5">
               <ShoppingCart class="h-5 w-5" />
-              Orders
+              Orçamentos
             </a>
             <a
               href="##"
@@ -192,11 +192,11 @@
           </Breadcrumb.Item>
           <Breadcrumb.Separator />
           <Breadcrumb.Item>
-            <Breadcrumb.Link href="##">Orders</Breadcrumb.Link>
+            <Breadcrumb.Link href="/orcamentos">Orçamentos</Breadcrumb.Link>
           </Breadcrumb.Item>
           <Breadcrumb.Separator />
           <Breadcrumb.Item>
-            <Breadcrumb.Page>Recent Orders</Breadcrumb.Page>
+            <Breadcrumb.Page>Detalhes</Breadcrumb.Page>
           </Breadcrumb.Item>
         </Breadcrumb.List>
       </Breadcrumb.Root>
@@ -217,7 +217,7 @@
             builders={[builder]}
           >
             <img
-              src="/images/placeholder-user.jpg"
+              src="https://www.shadcn-svelte.com/images/placeholder-user.jpg"
               width={36}
               height={36}
               alt="Avatar"
