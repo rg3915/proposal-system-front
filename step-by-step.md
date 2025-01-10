@@ -62,6 +62,7 @@ npx shadcn-svelte@latest add label -y
 npx shadcn-svelte@latest add select -y
 npx shadcn-svelte@latest add pagination -y
 npx shadcn-svelte@latest add progress -y
+npx shadcn-svelte@latest add scroll-area -y
 npx shadcn-svelte@latest add separator -y
 npx shadcn-svelte@latest add sheet -y
 npx shadcn-svelte@latest add tabs -y

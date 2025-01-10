@@ -66,16 +66,16 @@
       <Tooltip.Root>
         <Tooltip.Trigger asChild let:builder>
           <a
-            href="##"
+            href="/produtos"
             class="text-muted-foreground hover:text-foreground flex h-9 w-9 items-center justify-center rounded-lg transition-colors md:h-8 md:w-8"
             use:builder.action
             {...builder}
           >
             <Package class="h-5 w-5" />
-            <span class="sr-only">Orçamentos</span>
+            <span class="sr-only">Produtos</span>
           </a>
         </Tooltip.Trigger>
-        <Tooltip.Content side="right">Orçamentos</Tooltip.Content>
+        <Tooltip.Content side="right">Produtos</Tooltip.Content>
       </Tooltip.Root>
       <Tooltip.Root>
         <Tooltip.Trigger asChild let:builder>
@@ -144,7 +144,7 @@
               <span class="sr-only">Acme Inc</span>
             </a>
             <a
-              href="##"
+              href="/dashboard"
               class="text-muted-foreground hover:text-foreground flex items-center gap-4 px-2.5"
             >
               <House class="h-5 w-5" />
@@ -181,7 +181,7 @@
       <Breadcrumb.Root class="hidden md:flex">
         <Breadcrumb.List>
           <Breadcrumb.Item>
-            <Breadcrumb.Link href="##">Dashboard</Breadcrumb.Link>
+            <Breadcrumb.Link href="/dashboard">Dashboard</Breadcrumb.Link>
           </Breadcrumb.Item>
           <Breadcrumb.Separator />
           <Breadcrumb.Item>
