@@ -235,8 +235,6 @@
             <Tabs.Trigger value="all">Todos</Tabs.Trigger>
             <Tabs.Trigger value="active">Cancelado</Tabs.Trigger>
             <Tabs.Trigger value="draft">Em Elaboração</Tabs.Trigger>
-            <Tabs.Trigger value="draft">Pendente</Tabs.Trigger>
-            <Tabs.Trigger value="draft">Aprovado</Tabs.Trigger>
           </Tabs.List>
           <div class="ml-auto flex items-center gap-2">
             <DropdownMenu.Root>
@@ -257,10 +255,12 @@
                 <DropdownMenu.Label>Filter by</DropdownMenu.Label>
                 <DropdownMenu.Separator />
                 <DropdownMenu.CheckboxItem checked>
-                  Active
+                  Todos
                 </DropdownMenu.CheckboxItem>
-                <DropdownMenu.CheckboxItem>Draft</DropdownMenu.CheckboxItem>
-                <DropdownMenu.CheckboxItem>Archived</DropdownMenu.CheckboxItem>
+                <DropdownMenu.CheckboxItem>Cancelado</DropdownMenu.CheckboxItem>
+                <DropdownMenu.CheckboxItem>Em Elaboração</DropdownMenu.CheckboxItem>
+                <DropdownMenu.CheckboxItem>Pendente</DropdownMenu.CheckboxItem>
+                <DropdownMenu.CheckboxItem>Aprovado</DropdownMenu.CheckboxItem>
               </DropdownMenu.Content>
             </DropdownMenu.Root>
             <Button size="sm" variant="outline" class="h-8 gap-1">
@@ -294,7 +294,7 @@
                     </Table.Head>
                     <Table.Head>Código</Table.Head>
                     <Table.Head>Obra</Table.Head>
-                    <Table.Head>Vendedor</Table.Head>
+                    <Table.Head class="hidden sm:table-cell">Vendedor</Table.Head>
                     <Table.Head>Status</Table.Head>
                     <!-- <Table.Head class="hidden md:table-cell">Price</Table.Head>
                     <Table.Head class="hidden md:table-cell">
@@ -319,11 +319,11 @@
                         width="64"
                       />
                     </Table.Cell>
-                    <Table.Cell class="hidden md:table-cell">001/24</Table.Cell>
+                    <Table.Cell>001/24</Table.Cell>
                     <Table.Cell class="font-medium">
                       Laser Lemonade Machine
                     </Table.Cell>
-                    <Table.Cell class="font-medium">
+                    <Table.Cell class="hidden md:table-cell font-medium">
                       John Doe
                     </Table.Cell>
                     <Table.Cell>
@@ -367,11 +367,11 @@
                         width="64"
                       />
                     </Table.Cell>
-                    <Table.Cell class="hidden md:table-cell">002/24</Table.Cell>
+                    <Table.Cell>002/24</Table.Cell>
                     <Table.Cell class="font-medium">
                       Hypernova Headphones
                     </Table.Cell>
-                    <Table.Cell class="font-medium">
+                    <Table.Cell class="hidden md:table-cell font-medium">
                       John Doe
                     </Table.Cell>
                     <Table.Cell>
@@ -415,11 +415,11 @@
                         width="64"
                       />
                     </Table.Cell>
-                    <Table.Cell class="hidden md:table-cell">003/24</Table.Cell>
+                    <Table.Cell>003/24</Table.Cell>
                     <Table.Cell class="font-medium">
                       AeroGlow Desk Lamp
                     </Table.Cell>
-                    <Table.Cell class="font-medium">
+                    <Table.Cell class="hidden md:table-cell font-medium">
                       John Doe
                     </Table.Cell>
                     <Table.Cell>
@@ -461,11 +461,11 @@
                         width="64"
                       />
                     </Table.Cell>
-                    <Table.Cell class="hidden md:table-cell">004/24</Table.Cell>
+                    <Table.Cell>004/24</Table.Cell>
                     <Table.Cell class="font-medium">
                       TechTonic Energy Drink
                     </Table.Cell>
-                    <Table.Cell class="font-medium">
+                    <Table.Cell class="hidden md:table-cell font-medium">
                       John Doe
                     </Table.Cell>
                     <Table.Cell>
@@ -507,11 +507,11 @@
                         width="64"
                       />
                     </Table.Cell>
-                    <Table.Cell class="hidden md:table-cell">005/24</Table.Cell>
+                    <Table.Cell>005/24</Table.Cell>
                     <Table.Cell class="font-medium">
                       Gamer Gear Pro Controller
                     </Table.Cell>
-                    <Table.Cell class="font-medium">
+                    <Table.Cell class="hidden md:table-cell font-medium">
                       John Doe
                     </Table.Cell>
                     <Table.Cell>
@@ -553,11 +553,11 @@
                         width="64"
                       />
                     </Table.Cell>
-                    <Table.Cell class="hidden md:table-cell">006/24</Table.Cell>
+                    <Table.Cell>006/24</Table.Cell>
                     <Table.Cell class="font-medium">
                       Luminous VR Headset
                     </Table.Cell>
-                    <Table.Cell class="font-medium">
+                    <Table.Cell class="hidden md:table-cell font-medium">
                       John Doe
                     </Table.Cell>
                     <Table.Cell>
