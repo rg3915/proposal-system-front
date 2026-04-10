@@ -25,6 +25,7 @@
   import * as Tooltip from "$lib/components/ui/tooltip/index.js";
   import { AlbumArtwork } from "./(components)/index.js";
   import { ScrollArea } from "$lib/components/ui/scroll-area/index.js";
+  import { albums } from "./(data)/albums.js";
 </script>
 
 <div class="bg-muted/40 flex min-h-screen w-full flex-col">
@@ -287,7 +288,7 @@
               <div class="relative">
                 <ScrollArea orientation="both">
                   <div class="flex space-x-4 pb-4">
-                    <!-- {#each madeForYouAlbums as album} -->
+                    {#each albums as album}
                       <AlbumArtwork
                         {album}
                         class="w-[150px]"
@@ -295,7 +296,7 @@
                         width={150}
                         height={150}
                       />
-                    <!-- {/each} -->
+                    {/each}
                   </div>
                 </ScrollArea>
               </div>
